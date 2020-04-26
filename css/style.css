@@ -35,7 +35,68 @@ nav {
     position: absolute;
     right: 0;
     display: inline-block;
+    top: 60px;
 }
-main {
 
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #2f2e2e;
+}
+
+nav ul li a:hover{
+    color: #ff3731; 
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+#img-fundo {
+    width: 100%;
+}
+
+#sabores {
+    margin-top: -2px;
+    background-color: #ff3731;
+}
+
+#sabores h2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.card-sabores {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 1.5%;
+    padding-bottom: 30px;
+}
+
+.card-sabores img{
+    width: 250px;
+    height: 250px;
+}
+
+.card-sabores p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #2f2e2e;
 }
