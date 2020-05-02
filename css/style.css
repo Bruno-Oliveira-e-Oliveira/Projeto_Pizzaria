@@ -6,7 +6,6 @@ header{
     width: 940px;
     position: relative;
     margin: 0 auto;
-
 }
 
 #logo {
@@ -70,7 +69,7 @@ section {
     background-color: #ff3731;
 }
 
-#sabores h2 {
+.titulo-section {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -97,6 +96,33 @@ section {
     margin-top: 15px;
 }
 
+#sobre {
+ 
+}
+
+.bloco {
+    display: inline-block;
+    width: 49%;
+}
+
+.texto {
+    text-align: justify;
+  
+}
+
 footer {
     background-color: #2f2e2e;
+    width: 100%;
+    bottom: 0;
+    margin-top: 30px;
+    height: 50px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 48px;
+    margin-bottom: -2px;
+}
+
+footer span {
+    font-size: 18px;
+    color:  white;
 }
